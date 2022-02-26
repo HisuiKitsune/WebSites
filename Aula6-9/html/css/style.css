@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: tahoma, arial;
+}
+
+header.cabecalho {
+    width: 100%;
+    height: 140px;
+    background-color: navy;
+}
+
+header.cabecalho div.topo{
+    width: 1200px;
+    height: 140px;
+    /*background-color:pink;*/
+    margin: auto;
+}
+
+header.cabecalho div.topo img.logo{
+    float: left;
+    margin-left: 30px;
+}
+
+header.cabecalho div.topo nav.menu {
+     width: 450px;
+     height: 30px;
+     /*background-color: orange;*/
+     float: left;
+     margin-left: 350px;
+     margin-top: 90px;
+
+}
+header.cabecalho div.topo nav.menu ul li{
+     list-style-type: none;
+     display: inline;
+     margin-right:15px;
+     margin-left:15px;
+ }
+header.cabecalho div.topo nav.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+header.cabecalho div.topo nav.menu ul li a:hover{
+    color: #3db9eb;
+}
+
+section.galeria{
+    width: 100%;
+}
+
+section.container{
+    width: 1200px;
+    height: 2000px;
+    margin:auto;
+    margin-top: 60px;
+    /*border: 1px solid gray;*/
+}
+
+footer.rodape{
+    width: 100%;
+    height: 300px;
+    background-color: #011b3c;
+    margin-top: 40px;
+}
+
+footer.rodape div.caixarodape {
+    width: 1200px;
+    height: 300px;
+    /*background-color: orange;*/
+    margin: auto;
+}
+footer.rodape div.caixarodape div.mapa{
+    width:380px;
+    height: 300px;
+    /*background-color: pink;*/
+    float: left;
+}
+footer.rodape div.caixarodape div.menurodape{
+    width:380px;
+    height: 300px;
+    /*background-color:purple;*/
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+}
+footer.rodape div.caixarodape div.menurodape nav.menufinal{
+    width: 300px;
+    height: 200px;
+    /*background-color: black;*/
+    margin: auto;
+    margin-top: 30px;
+}
+footer.rodape div.caixarodape div.menurodape nav.menufinal ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+footer.rodape div.caixarodape div.menurodape nav.menufinal a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer.rodape div.caixarodape div.menurodape nav.menufinal a:hover{
+    color: #3db9eb;
+}
+
+footer.rodape div.caixarodape div.contato{
+    width:380px;
+    height: 300px;
+    /*background-color: green;*/
+    float: right;
+}
+footer.rodape div.caixarodape div.contato p{
+    font-size: 20px;
+    color: white;
+    line-height: 32px;
+    margin-left: 30px;
+}
+footer.rodape div.caixarodape div.contato p.paragtop{
+    margin-top: 10px;
+}
+
+footer.rodape div.caixarodape div.mapa h5,
+    footer.rodape div.caixarodape div.menurodape h5,
+        footer.rodape div.caixarodape div.contato h5{
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: rgb(0, 162, 255);
+    margin: 20px 0 20px 0; /*20px de MT, 0px MR, 20px MB, 0px ML*/
+    /*margin:20px 0;*/
+}
+/* 1200/3= 400
+380
+60
+30px*/

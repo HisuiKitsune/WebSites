@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+}
+
+section#contato{
+    width: 1200px;
+    height: auto;
+    /*background-color: #2e2e2e;*/
+    margin: auto;
+    margin-top: 50px;
+}
+
+section#contato div#containercontato{
+    max-width: 65%;
+    margin: auto;
+    /*background-color: lightblue;*/
+}
+
+section#contato div#containercontato h2{
+    color:gray;
+    font-weight: lighter;
+    font-size: 28px;   
+    margin-bottom: 30px;
+}
+
+section#contato div#containercontato form input{
+    width: 43%;
+    height: 35px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dad9d9;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+section#contato div#containercontato form textarea{
+    width: 91%;
+    height: 120px;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-left: 10px;
+    border:1px solid #dad9d9;
+    margin-bottom: 20px;
+    font-family: arial;
+    padding-top: 10px;
+}
+
+section#contato div#containercontato form input#id_enviar{
+    background-color: #4682b4;
+    color: white;
+    width: 93%;
+    text-transform: uppercase;;
+}
+
+section#contato div#containercontato form input#id_enviar:hover{
+    background-color: #5691ff;
+    transition: 1s;
+    -webkit-transition: 1s;
+
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section.box{
+    margin: auto;
+    width: 70%;
+    height: 1500px;
+    margin-top: 5%;
+}
+section.box div#blocotexto1,
+    section.box div#blocotexto3{
+    display: block;
+    float: left;
+}
+section.box div#blocotexto1 img,
+    section.box div#blocotexto3 img{
+    margin: auto;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+section.box div#blocotexto1 p,
+    section.box div#blocotexto3 p{
+    width: 40%;
+    margin: auto;
+    color: honeydew;
+    text-align: left;
+    margin-top: 50px;
+}
+
+section.box div#blocotexto2,
+    section.box div#blocotexto4{
+    display: block;
+    float: right;
+}
+
+section.box div#blocotexto2 img{
+    margin: auto;
+    display: block;
+    float: right;
+    margin-left: 20px;
+}
+section.box div#blocotexto4 img{
+    margin: auto;
+    display: block;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+section.box div#blocotexto2 p,
+    section.box div#blocotexto4 p{
+    width: 40%;
+    margin: auto;
+    color: honeydew;
+    text-align: right;
+    margin-top: 50px;
+}

@@ -1,0 +1,136 @@
+section.container div#nomeempresa{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+section.container article#conteudo img{
+    width: 40%;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+section.container article#conteudo h1{
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+section.container article#conteudo p{
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+@media screen and (max-width:992px) and (min-width:668px){
+    /*body{
+        background-color: blueviolet;
+    }*/
+    section.container article#conteudo img{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    section.container article#conteudo h1{
+        text-align: left;
+        font-size: 18px;
+    }
+    section.container article#conteudo p{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    footer.rodape{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:667px){
+    /*body{
+        background-color: green;
+    }*/
+    section.container div#nomeempresa{
+        font-size: 11px;
+    }
+    section.container article#conteudo img{
+        width: 80%;
+        margin-bottom: 30px;
+        padding: 10%;
+    }
+    section.container article#conteudo h1{
+        text-align: center;
+        font-size: 14px;
+    }
+    section.container article#conteudo p{
+        line-height: 18px;
+        font-size: 10px;
+    }
+    footer.rodape{
+        font-size: 10px;
+        line-height: 20px;
+        height: 20px;
+    }
+
+}
+
+@media screen and (max-width:457px){
+    /*body{
+        background-color: slategray;
+    }*/
+    section.container div#nomeempresa{
+        display: none;
+    }
+    section.container article#conteudo img{
+        width: 80%;
+        margin-bottom: 30px;
+        padding: 10%;
+    }
+    section.container article#conteudo h1{
+        text-align: center;
+        font-size: 12px;
+    }
+    section.container article#conteudo p{
+        line-height: 14px;
+        font-size: 8px;
+    }
+    footer.rodape{
+        font-size: 8px;
+        line-height: 15px;
+        height: 15px;
+    }
+
+}
+
+@media screen and (max-width:357px){
+
+    /*body{
+        background-color: yellow;
+    }*/
+    section.container div#nomeempresa{
+        display: none;
+    }
+    section.container article#conteudo img{
+        width: 80%;
+        margin-bottom: 30px;
+        padding: 10%;
+    }
+    section.container article#conteudo h1{
+        text-align: center;
+        font-size: 8px;
+    }
+    section.container article#conteudo p{
+        line-height: 11px;
+        font-size: 6px;
+    }
+    footer.rodape{
+        font-size: 6px;
+        line-height: 10px;
+        height: 10px;
+    }
+    
+}

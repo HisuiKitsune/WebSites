@@ -1,0 +1,234 @@
+section.container div#anuncioproduto{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #232323;
+    padding:5px 0;
+}
+
+section.container div#conteudo ul#album-fotos{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: red;
+    overflow: hidden; /* não exibir a barra de rolagem*/
+    list-style: none;
+}
+
+section.container div#conteudo ul#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    border: 5px solid #fff;
+    box-shadow: 10px 10px 3px rgba(0,0,0,.4);
+    transition: 0.3s ease-in;
+}
+
+section.container div#conteudo ul#album-fotos li#foto01{
+    background: url(../images/1.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+section.container div#conteudo ul#album-fotos li#foto02{
+    background: url(../images/2.png);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+section.container div#conteudo ul#album-fotos li#foto03{
+    background: url(../images/3.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+section.container div#conteudo ul#album-fotos li#foto04{
+    background: url(../images/4.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+section.container div#conteudo ul#album-fotos li#foto05{
+    background: url(../images/5.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+section.container div#conteudo ul#album-fotos li#foto06{
+    background: url(../images/6.png);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+section.container div#conteudo ul#album-fotos li span{
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 15px;
+    padding: 5px;
+    line-height: 370px;
+    opacity: 0;
+}
+section.container div#conteudo ul#album-fotos li:hover span{
+    opacity: 1;
+}
+section.container div#conteudo ul#album-fotos li#foto01:hover,
+section.container div#conteudo ul#album-fotos li#foto02:hover,
+section.container div#conteudo ul#album-fotos li#foto03:hover,
+section.container div#conteudo ul#album-fotos li#foto04:hover,
+section.container div#conteudo ul#album-fotos li#foto05:hover,
+section.container div#conteudo ul#album-fotos li#foto06:hover{
+    background-size:200px 200px
+}
+
+section.container div#conteudo ul#album-fotos li:hover{
+    transform: scale(1.5);
+    transition: 0.3s ease-in;
+}
+
+@media screen and (max-width:992px) and (min-width:668px){
+    /*body{
+        background-color: purple;
+    }
+    section.container div#anuncioproduto{
+        background-color: red;
+    }*/
+    section.container div#conteudo ul#album-fotos{
+        width: 500px;
+    }
+    section.container div#conteudo ul#album-fotos li{
+        width: 220px;
+        height: 220px;
+    }
+    section.container div#conteudo ul#album-fotos li span{
+        line-height: 420px;
+    }
+    
+    section.container div#conteudo ul#album-fotos li#foto01:hover,
+    section.container div#conteudo ul#album-fotos li#foto02:hover,
+    section.container div#conteudo ul#album-fotos li#foto03:hover,
+    section.container div#conteudo ul#album-fotos li#foto04:hover,
+    section.container div#conteudo ul#album-fotos li#foto05:hover,
+    section.container div#conteudo ul#album-fotos li#foto06:hover{
+    background-size:220px 220px;
+    }
+    footer.rodape{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:667px){
+	/*body{
+	    background-color:yellow;
+}
+    section.container div#anuncioproduto{
+        background-color:pink;
+}*/
+
+
+section.container div#conteudo ul#album-fotos{
+	width:315px;
+	/*background-color:gray;*/
+}
+
+
+section.container div#conteudo ul#album-fotos li{
+	width:300px;
+	height:300px;
+	margin-left:0px;
+}	
+
+
+section.container div#conteudo ul#album-fotos li span{
+	line-height:570px;
+}
+
+
+section.container div#conteudo ul#album-fotos li#foto01:hover,
+section.container div#conteudo ul#album-fotos li#foto02:hover,
+section.container div#conteudo ul#album-fotos li#foto03:hover,
+section.container div#conteudo ul#album-fotos li#foto04:hover,
+section.container div#conteudo ul#album-fotos li#foto05:hover,
+section.container div#conteudo ul#album-fotos li#foto06:hover{
+	background-size:300px 300px;
+}
+
+section.container div#conteudo ul#album-fotos li:hover{
+	transform:scale(1.2);
+}
+footer.rodape{
+    font-size: 10px;
+    line-height: 20px;
+    height: 20px;
+}
+
+}
+
+@media screen and (max-width:457px){
+    /*body{
+        background-color: gray;
+    }*/
+    section.container div#anuncioproduto{
+        display: none;
+    }
+    section.container div#conteudo ul#album-fotos{
+        width: 220px;
+        /*background-color: green;*/
+    }
+    section.container div#conteudo ul#album-fotos li{
+        width: 210px;
+        height: 210px;
+    }
+    section.container div#conteudo ul#album-fotos li span{
+        line-height: 390px;
+    }
+
+    section.container div#conteudo ul#album-fotos li#foto01:hover,
+    section.container div#conteudo ul#album-fotos li#foto02:hover,
+    section.container div#conteudo ul#album-fotos li#foto03:hover,
+    section.container div#conteudo ul#album-fotos li#foto04:hover,
+    section.container div#conteudo ul#album-fotos li#foto05:hover,
+    section.container div#conteudo ul#album-fotos li#foto06:hover{
+    background-size:210px 210px;
+}
+    footer.rodape{
+        font-size: 8px;
+        line-height: 15px;
+        height: 15px;
+    }
+
+}
+
+@media screen and (max-width:357px){
+    /*body{
+        background-color: pink;
+    }*/
+    section.container div#banner{
+        display: none;
+    }
+    section.container div#conteudo ul#album-fotos{
+        width: 155px;
+        /*background-color: violet;*/
+    }
+    section.container div#conteudo ul#album-fotos li{
+        width: 140px;
+        height: 140px;
+    }
+    section.container div#conteudo ul#album-fotos li span{
+        line-height: 260px;
+        font-size: 13px;
+    }
+    section.container div#conteudo ul#album-fotos li#foto01:hover,
+    section.container div#conteudo ul#album-fotos li#foto02:hover,
+    section.container div#conteudo ul#album-fotos li#foto03:hover,
+    section.container div#conteudo ul#album-fotos li#foto04:hover,
+    section.container div#conteudo ul#album-fotos li#foto05:hover,
+    section.container div#conteudo ul#album-fotos li#foto06:hover{
+    background-size:140px 140px;
+}
+    footer.rodape{
+        font-size: 6px;
+        line-height: 10px;
+        height: 10px;
+}
+
+}
+
+
